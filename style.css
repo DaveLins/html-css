@@ -1,0 +1,110 @@
+/*Estilos do body*/
+body{
+    background-color: #000000f5;
+}
+
+/*Estilos de todos os h2*/
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+    text-align: center;
+}
+
+/*Estilos da div profile*/
+.profile{
+    text-align: center;
+}
+
+/*Estilos da div email em img*/
+.email img{
+    max-width: 20px;
+    min-width: 20px;
+    margin: 15px;
+    float: left;
+}
+
+/*Estilos da div email em h4*/
+.email h4{
+    float: left;
+}
+
+/*Estilos da div list em h2*/
+.list h2{
+    float: right;
+    margin: 18px;
+    color: rgba(255, 255, 255, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: -20px;
+    min-width: -20px;
+}
+
+/*Estilos de todos os h4*/
+h4{
+    color: rgba(255, 255, 255, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilos da div container*/
+.container{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    margin-top: -100px;
+    margin-right: 200px;
+    margin-left: 170px;
+}
+
+/*Estilos da div container em h2*/
+.container h2{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+/*Estilos da div container em img*/
+.container img{
+    box-shadow: 3px 3px 4px 4px #ffffff07;
+    border-radius: 100px;
+}
+
+/*Estilos da div apresentation em h1*/
+.apresentation h1{
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 350px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.buttom1{
+    text-align: center;
+}
+
+#buttomid1 {
+  display: block;
+  height: 60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: bold;
+
+}
+
+div:hover > #buttomid1{
+            display: block;
+            color: white;
+            background-color: #000000f5;
+            box-shadow: 3px 3px 4px 4px #ffffff07;
+        }
+
+div:hover > #list{
+            display: block;
+            color': white;
+        }
