@@ -14,7 +14,7 @@ body{
 
 div#menu{
     display: flex;
-    min-height: 150px;
+    min-height: 50px;
     margin: 18px;
     padding: 5px;
 }
