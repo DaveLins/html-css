@@ -30,7 +30,7 @@ div#menu > div#img-div{
     border-color: rgba(255, 255, 255, 0.432);
 }
 
-div#menu > div#img-div > a > #email-icon{
+div#menu > div#img-div > #a-unico > #email-icon{
     width: 15px;
     padding: 2.5px;
 }
