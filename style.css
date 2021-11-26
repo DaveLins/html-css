@@ -14,7 +14,7 @@ body{
 
 div#menu{
     display: flex;
-    min-height: 150;
+    min-height: 150px;
     margin: 18px;
     padding: 5px;
 }
@@ -27,10 +27,10 @@ div#menu > div#img-div{
     margin-left: 50px;
     border-radius: 50%;
     border-style: solid;
-    border-color: rgb(255, 255, 255, 0.507);
+    border-color: rgba(255, 255, 255, 0.432);
 }
 
-div#menu > div#img-div > #emali-icon{
+div#menu > div#img-div > a > #email-icon{
     width: 15px;
     padding: 2.5px;
 }
@@ -45,13 +45,13 @@ div#menu > div#email-text{
     font-family: Email;
     font-size: 12px;
     font-weight: bold;
-    margin-top: 16px;
+    margin-top: 18px;
     margin-left: 15px;
     text-decoration: none;
 }
 
 div#menu > div#email-text:hover{
-    color: rgba(255, 255, 255, 0.507);
+    color: rgba(255, 255, 255, 0.432);
     transition-duration: 1.2s;
 }
 
@@ -59,7 +59,7 @@ div#menu > div#items-menu{
     margin-left: auto;
     margin-right: 50px;
     text-align: justify;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 div#menu > div#items-menu > ul{
@@ -79,6 +79,6 @@ a{
 }
 
 a:hover{
-    color: rgba(255, 255, 255, 0.507);
+    color: rgba(255, 255, 255, 0.432);
     transition-duration: 1.2s;
 }
