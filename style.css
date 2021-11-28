@@ -10,11 +10,12 @@
 
 body{
     background-color: black;
+    overflow-x: hidden; overflow-y: hidden; 
 }
 
 div#menu{
     display: flex;
-    min-height: 150;
+    min-height: 5vh;
     margin: 18px;
     padding: 5px;
 }
@@ -80,5 +81,78 @@ a{
 
 a:hover{
     color: rgba(255, 255, 255, 0.507);
+    transition-duration: 1.2s;
+}
+
+div#main{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#main > #perfil{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+div#main > #nome{
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif, cursive;
+    font-size: 18px;
+}
+
+div#main > #frase{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif, cursive;
+    font-size: 36px;
+}
+
+div#main > #frase2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 25px;
+    color: #ffffff47;
+    text-align: center;
+    font-family: sans-serif, cursive;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div#main > #buttom{
+    display: block;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: white;
+    width: 160px;
+    border-radius: 20px 20px;
+    padding: auto;
+    text-align: center;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif, cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div#main > #buttom:hover{
+    background-color: #ffffff47;
+    color: white;
     transition-duration: 1.2s;
 }
