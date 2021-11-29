@@ -602,7 +602,7 @@ div#Curser > #list_curser{
 
 /*Media query para tela de 500px*/
 
-@media screen and (min-width: 500px) and (max-width: 600px){
+@media screen and (min-width: 400px) and (max-width: 600px){
     body{
         background-color: black;
         overflow-x: hidden; overflow-y: scroll; 
