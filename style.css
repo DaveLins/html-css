@@ -126,7 +126,7 @@ div#main > #frase2{
     margin-right: auto;
     width: 35%;
     margin-top: 25px;
-    color: #ffffff47;
+    color: #ffffff9e;
     text-align: center;
     font-family: sans-serif, cursive;
     font-size: 12px;
@@ -181,6 +181,7 @@ div#daddy{
     transform: translate(10%);
     color: white;
     margin-right: 50px;
+    margin-top: 80px;
     font-family: sans-serif;
     font-size: 12px;
 }
@@ -318,7 +319,7 @@ div#Curser > #list_curser{
         margin-right: auto;
         width: 55%;
         margin-top: 25px;
-        color: #ffffff47;
+        color: #ffffff9e;
         text-align: center;
         font-family: sans-serif, cursive;
         font-size: 10px;
@@ -406,6 +407,7 @@ div#Curser > #list_curser{
         transform: translate(10%);
         color: white;
         margin-right: 50px;
+        margin-top: 80px;
         font-family: sans-serif;
         font-size: 12px;
     }
@@ -470,7 +472,7 @@ div#Curser > #list_curser{
         margin-right: auto;
         width: 35%;
         margin-top: 25px;
-        color: #ffffff47;
+        color: #ffffff9e;
         text-align: center;
         font-family: sans-serif, cursive;
         font-size: 10px;
@@ -510,6 +512,7 @@ div#Curser > #list_curser{
         transform: translate(10%);
         color: white;
         margin-right: 20px;
+        margin-top: 50px;
         font-family: sans-serif;
         font-size: 12px;
     }
@@ -574,7 +577,7 @@ div#Curser > #list_curser{
         margin-right: auto;
         width: 35%;
         margin-top: 25px;
-        color: #ffffff47;
+        color: #ffffff9e;
         text-align: center;
         font-family: sans-serif, cursive;
         font-size: 10px;
@@ -600,7 +603,7 @@ div#Curser > #list_curser{
     }
 }
 
-/*Media query para tela de 500px*/
+/*Media query para tela de 600px*/
 
 @media screen and (min-width: 400px) and (max-width: 600px){
     body{
@@ -608,66 +611,80 @@ div#Curser > #list_curser{
         overflow-x: hidden; overflow-y: scroll; 
     }
 
-    div#down > img{
+    div#daddy{
         display: block;
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: auto;
-        width: 0px;
-        height: 0px;
+        transform: translate(10%);
+        color: white;
+        margin-right: 20px;
+        margin-top: 50px;
+        font-family: sans-serif;
+        font-size: 12px;
     }
-    
+
+    div#dev{
+        color: rgba(255, 255, 255, 0.432);
+        font-size: 12px;
+        padding-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    div#design{
+        color: rgba(255, 255, 255, 0.432);
+        font-size: 12px;
+        padding-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    div#Tools{
+        color: rgba(255, 255, 255, 0.432);
+        font-size: 12px;
+        padding-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    div#Curser{
+        color: rgba(255, 255, 255, 0.432);
+        font-size: 12px;
+        padding-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
     div#main > #perfil{
         display: block;
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 50%;
         border-style: solid;
-    }
-
-    div#menu > div#img-div{
-        width: 20px;
-        height: 20px;
-        padding: 8px;
-        margin: 5px;
-        margin-left: 25px;
-        border-radius: 50%;
-        border-style: solid;
-        border-color: rgba(255, 255, 255, 0.432);
-    }
-
-    div#main > #nome{
-        margin-top: 25px;
-        color: white;
-        text-align: center;
-        font-family: sans-serif, cursive;
-        font-size: 12px;
     }
 
     div#main > #frase{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75%;
+        width: 50%;
         margin-top: 25px;
         color: white;
         text-align: center;
         font-family: sans-serif, cursive;
-        font-size: 30px;
+        font-size: 26px;
     }
 
     div#main > #frase2{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 35%;
         margin-top: 25px;
-        color: #ffffff47;
+        color: #ffffff9e;
         text-align: center;
         font-family: sans-serif, cursive;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: normal;
     }
 
@@ -683,57 +700,156 @@ div#Curser > #list_curser{
         padding: auto;
         color: black;
         text-align: center;
-        padding: 12px;
+        padding: 8px;
         font-family: sans-serif, cursive;
         font-size: 15px;
         font-weight: bold;
     }
 
-    div#down > img{
+    div#main > #frase{
         display: block;
-        margin-top: 40px;
-        margin-right: auto;
         margin-left: auto;
-        width: 40px;
-        height: 40px;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 25px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif, cursive;
+        font-size: 25px;
+    }
+
+    div#main > #frase2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        margin-top: 25px;
+        color: #ffffff47;
+        text-align: center;
+        font-family: sans-serif, cursive;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    div#main > #buttom{
+        display: block;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        background-color: white;
+        width: 130px;
+        border-radius: 20px 20px;
+        padding: auto;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-family: sans-serif, cursive;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+/*Media query para tela de 1500px*/
+
+@media screen and (min-width: 1001px) and (max-width: 1050px){
+    body{
+        background-color: black;
+        overflow-x: hidden; overflow-y: scroll; 
     }
 
     div#daddy{
-        display: inline;
+        display: flex;
+        transform: translate(10%);
         color: white;
+        margin-right: 20px;
+        margin-top: 50px;
         font-family: sans-serif;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     div#dev{
         color: rgba(255, 255, 255, 0.432);
         font-size: 12px;
-        padding-bottom: 20px;
-        margin-right: 80px;
-        margin-left: 80px;
+        padding-bottom: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
     div#design{
         color: rgba(255, 255, 255, 0.432);
         font-size: 12px;
-        padding-bottom: 20px;
-        margin-right: 80px;
-        margin-left: 80px;
+        padding-bottom: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
     div#Tools{
         color: rgba(255, 255, 255, 0.432);
         font-size: 12px;
-        padding-bottom: 20px;
-        margin-right: 80px;
-        margin-left: 80px;
+        padding-bottom: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
     div#Curser{
         color: rgba(255, 255, 255, 0.432);
         font-size: 12px;
-        padding-bottom: 20px;
-        margin-right: 80px;
-        margin-left: 80px;
+        padding-bottom: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    div#main > #perfil{
+        display: block;
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        border-style: solid;
+    }
+
+    div#main > #frase{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 25px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif, cursive;
+        font-size: 26px;
+    }
+
+    div#main > #frase2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        margin-top: 25px;
+        color: #ffffff9e;
+        text-align: center;
+        font-family: sans-serif, cursive;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    div#main > #buttom{
+        display: block;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        background-color: white;
+        width: 130px;
+        border-radius: 20px 20px;
+        padding: auto;
+        color: black;
+        text-align: center;
+        padding: 8px;
+        font-family: sans-serif, cursive;
+        font-size: 15px;
+        font-weight: bold;
     }
 }
